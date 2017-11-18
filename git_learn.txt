@@ -8,6 +8,8 @@
 3、git log命令显示从最近到最远的提交日志
 4、HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id
 5、git reflog查看命令历史，以便确定要回到未来的哪个版本
+6、git checkout -- file 让这个文件回到最近一次git commit或git add时的状态，撤销还未提交到版本库对文件作出的修改
+7、git reset HEAD file 撤销对用add添加到暂存区的修改
 
 
 
